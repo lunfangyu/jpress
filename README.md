@@ -138,7 +138,6 @@
 - 论坛社区：[点击这里](http://www.jpress.io/club)
 - 插件列表：[点击这里](http://www.jpress.io/article/category/plugin)
 - 模板列表：[点击这里](http://www.jpress.io/article/category/template)
-- QQ群：591396171 ，288397536
 
 
 ## 帮助文档
@@ -191,12 +190,6 @@ wget https://gitee.com/fuhai/jpress/raw/master/install.sh && bash install.sh
 >
 > 解决方案： jpress 在安装过程中，会在 `starter/target/classes` 目录下生成的 `jboot.properties` 和 `install.lock` 文件，我们需要把这两个文件复制到 `starter/src/main/resource` 目录下。 因为，jpress 是否安装决定在这两个文件，当我们执行  `mvn clean` 命令时，maven 会清除 target 下的所有文件，从而使 JPress 会再次走安装流程。
 
-
-
-
-## 微信交流群
-
-![](./doc/images/jpress-wechat-group.png)
 
 
 
